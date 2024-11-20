@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.2,
-          "width": 3.5
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.22
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|131818166|174827797|e9f05704-8849-4479-a515-68d422f3480e|30d3fc4a-c1c2-46c6-a2f4-3288ad22cb56",
+        "clearance|139413292|123508393|69b6471f-db25-4fdd-91d9-6bd46427be4e|6cb2c417-94c4-448b-a446-2595f2996727",
+        "clearance|147910846|125184129|1cbee62f-3645-4d28-b65c-b125163d5963|aaf243f2-4040-46bf-ac0c-8e204c1209f5",
+        "clearance|147919365|125184507|e1316940-9ff9-4ec4-a360-68d603805152|aaf243f2-4040-46bf-ac0c-8e204c1209f5",
+        "clearance|147931792|124784893|e883493a-891b-4454-a772-61941667752c|372e74e1-955b-48a6-b780-2b9a81721f6b",
+        "clearance|147931792|124984893|aaf243f2-4040-46bf-ac0c-8e204c1209f5|235b1d5d-8600-4ad0-a44c-352a24633b80",
+        "clearance|148131792|124784893|372e74e1-955b-48a6-b780-2b9a81721f6b|aaf243f2-4040-46bf-ac0c-8e204c1209f5",
+        "clearance|148131792|125184893|e6a71cac-0ddb-4fee-be6d-68723dcddcd0|235b1d5d-8600-4ad0-a44c-352a24633b80",
+        "clearance|148331622|124776645|ba77a7ca-f8ed-4b51-b822-7f05b36608c3|aaf243f2-4040-46bf-ac0c-8e204c1209f5",
+        "clearance|148331792|124984893|372e74e1-955b-48a6-b780-2b9a81721f6b|e6a71cac-0ddb-4fee-be6d-68723dcddcd0",
+        "clearance|148412578|125167851|6296c6b1-28fe-4774-b3e9-a7f85d3ada4b|372e74e1-955b-48a6-b780-2b9a81721f6b",
+        "clearance|165708324|113579745|3edffad0-b169-4d11-a475-f1c57db10e61|3c3ed1af-b73a-486a-9aac-cfd25aea6fcc",
+        "clearance|166165855|112925458|fac6d670-c92c-41bd-8b06-f0e5f126c519|3c3ed1af-b73a-486a-9aac-cfd25aea6fcc",
+        "clearance|218878925|107427364|7ce3ef8e-07bc-473c-af3e-b1326f88bef6|ecf63fdc-9b6f-4567-8333-e2b50f0d34c0",
+        "clearance|219535300|108150400|c4271939-a816-48b9-98ca-25bb109d332b|428b377b-c195-48ab-9cfc-4ded7f18eb17",
+        "clearance|219548741|108150219|428b377b-c195-48ab-9cfc-4ded7f18eb17|71b8714b-4f6b-472c-a142-ea0f8b79e731"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
